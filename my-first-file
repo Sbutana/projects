@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blue Diamond Furniture Create Meeting page </title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+body{
+font-family: arial, sans-serif;
+font-size: .7em;
+}
+#wrapper{
+margin: .25em;
+border: solid thin red;
+}
+.mybox{
+display: flex;
+background-color: grey;
+margin: .8em;
+height: 400px;
+}
+.innerbox{
+flex: 1;
+background-color: red;
+height: 50%;
+margin-right: .8em;
+margin-top: auto;
+margin-bottom: auto;
+
+}
+.innerbox:nth-child(1){margin-left: .8em;}
+</style>
+</head>
+ <body>
+   <div id="wrapper">
+    <div class="mybox">
+	  <div class="innerbox">
+	  </div>
+	  <div class="innerbox">
+	  </div>
+	  <div class="innerbox">
+	  </div>
+	  <div class="innerbox">
+	  </div>
+	</div>
+   </div>
+ </body> 
+</html>
